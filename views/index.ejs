@@ -1,0 +1,28 @@
+<style>
+  .form-con {
+    width: 70%;
+    margin-left: 15%;
+  }
+</style>
+
+<form action="/submit_form" method="post" class="form-signin">
+  <div class="form-group">
+    <label for="email">Name</label>
+    <input
+      type="text"
+      class="form-control form-con"
+      name="name"
+      placeholder="Enter Name"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Message</label>
+    <textarea
+      type="text"
+      class="form-control form-con"
+      name="message"
+      placeholder="Enter message"
+    ></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

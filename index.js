@@ -41,7 +41,7 @@ app.post("/submit_form", function (req, res) {
 //start server
 var http = require("http");
 
-var port = 8000;
+var port = 80;
 app.set("port", port);
 
 var server = http.createServer(app);
